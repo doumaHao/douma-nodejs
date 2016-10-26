@@ -1,9 +1,11 @@
 url和uri
+
     url 是统一资源定位符 偏重定位地址 比如一个网站的网址肯定是个url，或者网络上某个静态资源的地址，都是url
     uri 是统一资源标识符 偏重标示
     url是uri的子集，即url肯定是uri,但是uri却不一定是url
 
 url模块
+
     进入nodejs的环境 $ node
     查看对于url所支持的方法 $ url
     具体方法说明

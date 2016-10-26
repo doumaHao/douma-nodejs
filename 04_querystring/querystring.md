@@ -1,6 +1,7 @@
 querystring 序列化和反序列化
 
 querystring模块
+
     进入nodejs的环境 $ node
     查看对于querystring模块 $ querystring
     具体方法说明

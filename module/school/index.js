@@ -1,3 +1,3 @@
-//Ä£¿éÊµÑéµÄÆô¶¯Èë¿Ú
+//æ¨¡å—å®éªŒçš„å¯åŠ¨å…¥å£
 var clazz = require('./clazz');
 clazz.add('douma',['xixiang','dachengzi']);
