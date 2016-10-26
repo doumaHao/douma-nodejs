@@ -1,6 +1,6 @@
-//ÀÏÊ¦Ä£¿éµÄ·½·¨
+//è€å¸ˆæ¨¡å—çš„æ–¹æ³•
 function add(name){
     console.log('add teacher:' +name)
 }
-//µ½´¦ÀÏÊ¦Ä£¿é
+//åˆ°å¤„è€å¸ˆæ¨¡å—
 exports.add = add;

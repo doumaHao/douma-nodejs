@@ -1,24 +1,25 @@
-querystring ÐòÁÐ»¯ºÍ·´ÐòÁÐ»¯
+querystring åºåˆ—åŒ–å’Œååºåˆ—åŒ–
 
-querystringÄ£¿é
-    ½øÈënodejsµÄ»·¾³ $ node
-    ²é¿´¶ÔÓÚquerystringÄ£¿é $ querystring
-    ¾ßÌå·½·¨ËµÃ÷
-        querystring.stringify   ¶ÔÏóÐòÁÐ»¯
-            ²ÎÊýËµÃ÷
-                ²ÎÊý1 ¶ÔÏó
-                    ÊäÈë  querystring.stringify({a:'111',b:'222'})
-                    ·µ»Ø  'a=111&b=222'
-                ²ÎÊý2 ÐòÁÐ»¯Ö®ºóµÄ×Ö·û´®¸÷×éÖµÖ®¼äµÄÁ´½Ó×Ö·û£¬Ä¬ÈÏÊÇ¶ººÅ¡¾,¡¿
-                    ÊäÈë  querystring.stringify({a:'111',b:'222'},',')
-                    ·µ»Ø  'a=111,b=222'
-                ²ÎÊý3 ÐòÁÐ»¯Ö®ºóµÄ×Ö·û´®¼üÖµ¶ÔÖ®¼äµÄÁ´½Ó×Ö·û£¬Ä¬ÈÏÊÇµÈºÅ¡¾=¡¿
-                    ÊäÈë  querystring.stringify({a:'111',b:'222'},',',':')
-                    ·µ»Ø  'a:111,b:222'
-        querystring.parse   ×Ö·û´®·´ÐòÁÐ»¯
-                ²ÎÊý1 ×Ö·û´®
-                ²ÎÊý2 ·´ÐòÁÐ»¯×Ö·û´®¸÷×éÖµÖ®¼äµÄÁ´½Ó×Ö·û£¬Ä¬ÈÏÊÇ¶ººÅ¡¾,¡¿
-                ²ÎÊý3 ·´ÐòÁÐ»¯×Ö·û´®¼üÖµ¶ÔÖ®¼äµÄÁ´½Ó×Ö·û£¬Ä¬ÈÏÊÇµÈºÅ¡¾=¡¿
-                ²ÎÊý4 ÐòÁÐ»¯µÄ¶ÔÏóÖÐÊôÐÔµÄ¸öÊý£¬Ä¬ÈÏÊÇ1000¸ö£¬ÉèÖÃÎª0ÔòÊÇÎÞÉÏÏÞ
-        querystring.escape  ×ªÒå
-        querystring.unescape    ·´×ªÒå
+querystringæ¨¡å—
+
+    è¿›å…¥nodejsçš„çŽ¯å¢ƒ $ node
+    æŸ¥çœ‹å¯¹äºŽquerystringæ¨¡å— $ querystring
+    å…·ä½“æ–¹æ³•è¯´æ˜Ž
+        querystring.stringify   å¯¹è±¡åºåˆ—åŒ–
+            å‚æ•°è¯´æ˜Ž
+                å‚æ•°1 å¯¹è±¡
+                    è¾“å…¥  querystring.stringify({a:'111',b:'222'})
+                    è¿”å›ž  'a=111&b=222'
+                å‚æ•°2 åºåˆ—åŒ–ä¹‹åŽçš„å­—ç¬¦ä¸²å„ç»„å€¼ä¹‹é—´çš„é“¾æŽ¥å­—ç¬¦ï¼Œé»˜è®¤æ˜¯é€—å·ã€,ã€‘
+                    è¾“å…¥  querystring.stringify({a:'111',b:'222'},',')
+                    è¿”å›ž  'a=111,b=222'
+                å‚æ•°3 åºåˆ—åŒ–ä¹‹åŽçš„å­—ç¬¦ä¸²é”®å€¼å¯¹ä¹‹é—´çš„é“¾æŽ¥å­—ç¬¦ï¼Œé»˜è®¤æ˜¯ç­‰å·ã€=ã€‘
+                    è¾“å…¥  querystring.stringify({a:'111',b:'222'},',',':')
+                    è¿”å›ž  'a:111,b:222'
+        querystring.parse   å­—ç¬¦ä¸²ååºåˆ—åŒ–
+                å‚æ•°1 å­—ç¬¦ä¸²
+                å‚æ•°2 ååºåˆ—åŒ–å­—ç¬¦ä¸²å„ç»„å€¼ä¹‹é—´çš„é“¾æŽ¥å­—ç¬¦ï¼Œé»˜è®¤æ˜¯é€—å·ã€,ã€‘
+                å‚æ•°3 ååºåˆ—åŒ–å­—ç¬¦ä¸²é”®å€¼å¯¹ä¹‹é—´çš„é“¾æŽ¥å­—ç¬¦ï¼Œé»˜è®¤æ˜¯ç­‰å·ã€=ã€‘
+                å‚æ•°4 åºåˆ—åŒ–çš„å¯¹è±¡ä¸­å±žæ€§çš„ä¸ªæ•°ï¼Œé»˜è®¤æ˜¯1000ä¸ªï¼Œè®¾ç½®ä¸º0åˆ™æ˜¯æ— ä¸Šé™
+        querystring.escape  è½¬ä¹‰
+        querystring.unescape    åè½¬ä¹‰

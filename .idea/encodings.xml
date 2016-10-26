@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/01_server/server.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_module/school/clazz.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_module/school/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_module/school/student.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02_module/school/teacher.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05_http/http.md" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
